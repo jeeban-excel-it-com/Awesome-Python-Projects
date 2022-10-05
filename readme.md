@@ -1,4 +1,35 @@
-# Alarm Clock
-This Command Line Interface (CLI) Python application is a good step up for a beginner developer. More than just setting off an alarm, 
-this program allows certain YouTube links to be added to a text file. When a user sets an alarm, 
-the code picks a random video and starts playing it.
+Foobar is a Python library for dealing with word pluralization.
+
+## Prerequisites: 
+-> Python functions 
+-> Tkinter basics (Label Widget) 
+-> Time module 
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install foobar
+```
+
+## Usage
+
+```python
+import foobar
+
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
